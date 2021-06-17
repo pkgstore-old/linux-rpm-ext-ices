@@ -43,23 +43,23 @@ META-package for install and configure IceS.
 - UPD: License.
 - UPD: "ices.playlist.sh".
 
-* Thu Aug 01 2019 Package Store <pkgstore@pm.me> - 1.0.0-106
+* Thu Aug 01 2019 Package Store <kitsune.solar@gmail.com> - 1.0.0-106
 - UPD: Shell scripts.
 
-* Wed Jul 31 2019 Package Store <pkgstore@pm.me> - 1.0.0-105
+* Wed Jul 31 2019 Package Store <kitsune.solar@gmail.com> - 1.0.0-105
 - UPD: SPEC-file.
 
-* Wed Jul 10 2019 Package Store <pkgstore@pm.me> - 1.0.0-104
+* Wed Jul 10 2019 Package Store <kitsune.solar@gmail.com> - 1.0.0-104
 - UPD: Scripts & configs.
 
-* Tue Jul 02 2019 Package Store <pkgstore@pm.me> - 1.0.0-103
+* Tue Jul 02 2019 Package Store <kitsune.solar@gmail.com> - 1.0.0-103
 - UPD: SPEC-file.
 
-* Sat Mar 30 2019 Package Store <pkgstore@pm.me> - 1.0.0-102
+* Sat Mar 30 2019 Package Store <kitsune.solar@gmail.com> - 1.0.0-102
 - NEW: 1.0.0-102.
 
-* Sat Mar 30 2019 Package Store <pkgstore@pm.me> - 1.0.0-101
+* Sat Mar 30 2019 Package Store <kitsune.solar@gmail.com> - 1.0.0-101
 - NEW: 1.0.0-101.
 
-* Fri Feb 15 2019 Package Store <pkgstore@pm.me> - 1.0.0-100
+* Fri Feb 15 2019 Package Store <kitsune.solar@gmail.com> - 1.0.0-100
 - Initial build.

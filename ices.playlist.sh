@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 
 (( EUID == 0 )) &&
   { echo >&2 "This script should not be run as root!"; exit 1; }
@@ -45,7 +45,7 @@ for i in *.ogg; do
   mv "${i}" "${d_music_out}"
 done
 
-cd "${d_music_out}" || exit; find "$( pwd )" -iname "*.ogg" > "playlist.txt"
+cd "${d_music_out}" && find "$( pwd )" -iname "*.ogg" | sort -R > "playlist.txt"
 
 
 # -------------------------------------------------------------------------------------------------------------------- #
