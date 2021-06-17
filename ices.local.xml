@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<ices>
+  <background>1</background>
+  <logpath><!-- path: logs --></logpath>
+  <logfile>ices.log</logfile>
+  <loglevel>4</loglevel>
+  <consolelog>0</consolelog>
+
+  <!-- <pidfile>/home/ices/ices.pid</pidfile> -->
+
+  <stream>
+    <metadata>
+      <name>Radio W.T.F. - LIVE</name>
+      <genre>misc</genre>
+      <description>Radio W.T.F. / LIVE</description>
+    </metadata>
+
+    <input>
+      <module>playlist</module>
+      <param name="type">basic</param>
+      <param name="file"><!-- path: playlist.txt --></param>
+      <param name="random">0</param>
+      <param name="restart-after-reread">0</param>
+      <param name="once">0</param>
+    </input>
+
+    <instance>
+      <hostname>localhost</hostname>
+      <port>8881</port>
+      <password><!-- password: source --></password>
+      <mount>/live</mount>
+      <reconnectdelay>2</reconnectdelay>
+      <reconnectattempts>5</reconnectattempts>
+      <maxqueuelength>80</maxqueuelength>
+      <encode>
+        <nominal-bitrate>64000</nominal-bitrate>
+        <samplerate>44100</samplerate>
+        <channels>2</channels>
+      </encode>
+    </instance>
+  </stream>
+</ices>
