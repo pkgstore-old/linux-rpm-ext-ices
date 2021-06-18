@@ -1,6 +1,6 @@
 %global app                     ices
 %global d_bin                   %{_bindir}
-%global release_prefix          100
+%global release_prefix          101
 
 Name:                           ext-ices
 Version:                        1.0.1
@@ -40,6 +40,9 @@ META-package for install and configure IceS.
 
 
 %changelog
+* Fri Jun 18 2021 Package Store <kitsune.solar@gmail.com> - 1.0.1-101
+- UPD: New build for latest changes.
+
 * Thu Jun 17 2021 Package Store <kitsune.solar@gmail.com> - 1.0.1-100
 - UPD: Move to GitHub.
 - UPD: License.
